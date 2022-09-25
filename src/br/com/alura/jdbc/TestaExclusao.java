@@ -5,6 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+import br.com.alura.jdbc.dao.ConnectionFactory;
+
 public class TestaExclusao {
 	public static void main(String[] args) throws SQLException {
 		Scanner sc = new Scanner(System.in);
